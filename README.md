@@ -6,7 +6,7 @@ actividad 5
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Actividad 5</title>
-<h2 style="text-align:center">Ménu de navegación horizontal con submenús desplegables</h2>
+<h2 style="text-align:center">Menú de navegación horizontal con submenús desplegables</h2>
 
 <style>
 
