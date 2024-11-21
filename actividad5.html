@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú de Navegación</title>
+<style>
+.menu {
+background-color:#17A589;
+padding: 15px;
+}
+.menu ul {
+list-style-type: none;
+display: flex;
+padding: 0;
+margin: 0;
+}
+.menu li {
+position: relative;
+margin: 0 10px;
+}
+.menu a {
+color: white;
+text-decoration: none;
+padding: 5px 10px;
+}
+.menu a:hover {
+background-color: #A9DFBF;
+color:black;
+}
+.menu li ul {
+display: none;
+position: absolute;
+background-color:#F9e79f;
+padding: 5px;
+top: 100%;
+left: 35px;
+z-index: 1000;
+color:black;
+}
+.menu li:hover ul {
+display: block;
+}
+.menu li ul li {
+margin: 5px 0;
+}
+</style>
+</head>
+<body>
+
+<nav class="menu">
+<ul>
+<li><a href="inicio.html">Inicio</a>
+<ul>
+<li><a href="https://www.cinepolis.com.ar/peliculas/moana">Servicios</a></li>
+<li><a href="desarrollo.html">Portafolio</a></li>
+<li><a href="Tarjetadeperfil.html">Contacto</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Servicios</a>
+<ul>
+<li><a href="https://www.cinepolis.com.ar/peliculas/moana">Reseñas</a></li>
+<li><a href="Articulo.html">Articulos</a></li>
+<li><a href="https://www.sensacine.com.mx/series/">Series</a></li>
+</ul>
+</li>
+<li><a href="portafolio.html">Portafolio</a>
+<ul>
+<li><a href="https://www.gandhi.com.mx/libros?srsltid=AfmBOoqEM713bUxISSolFRILr-BtdsQs1Ps6Yoz_v19zUiULkxXC2FM8">Libro</a></li>
+<li><a href="https://dem.colmex.mx/">Diccionario</a></li>
+</ul>
+</li>
+<li><a href="contacto.html">Contacto</a>
+<ul>
+<li><a href="Tarjetadeperfil.html">Perfil</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+
+</body>
+</html>
